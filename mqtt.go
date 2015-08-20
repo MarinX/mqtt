@@ -4,9 +4,7 @@ package mqtt
 import (
 	"encoding/json"
 	"errors"
-	"fmt"
 	MQTT "git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.golang.git"
-	"time"
 )
 
 type Conn struct {
